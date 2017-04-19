@@ -107,11 +107,23 @@ Bartender4DB = {
 				},
 			},
 		},
+		["ZoneAbilityBar"] = {
+			["profiles"] = {
+				["Исендур - Азурегос"] = {
+					["position"] = {
+						["y"] = -179.108306884766,
+						["x"] = 170.604644775391,
+						["point"] = "LEFT",
+					},
+					["version"] = 3,
+				},
+			},
+		},
 		["MicroMenu"] = {
 			["profiles"] = {
 				["Исендур - Азурегос"] = {
 					["rows"] = 11,
-					["version"] = 3,
+					["fadeout"] = true,
 					["position"] = {
 						["y"] = -194.625030517578,
 						["x"] = -24.7498779296875,
@@ -121,18 +133,6 @@ Bartender4DB = {
 					["padding"] = 0,
 					["visibility"] = {
 						["always"] = false,
-					},
-					["fadeout"] = true,
-				},
-			},
-		},
-		["ZoneAbilityBar"] = {
-			["profiles"] = {
-				["Исендур - Азурегос"] = {
-					["position"] = {
-						["y"] = -179.108306884766,
-						["x"] = 170.604644775391,
-						["point"] = "LEFT",
 					},
 					["version"] = 3,
 				},
@@ -174,15 +174,15 @@ Bartender4DB = {
 				},
 			},
 		},
-		["StanceBar"] = {
+		["Vehicle"] = {
 			["profiles"] = {
 				["Исендур - Азурегос"] = {
-					["position"] = {
-						["y"] = -15.0000305175781,
-						["x"] = -82.4999847412109,
-						["point"] = "CENTER",
-					},
 					["version"] = 3,
+					["position"] = {
+						["y"] = -185.736465454102,
+						["x"] = 91.1361694335938,
+						["point"] = "LEFT",
+					},
 				},
 			},
 		},
@@ -199,15 +199,15 @@ Bartender4DB = {
 				},
 			},
 		},
-		["Vehicle"] = {
+		["StanceBar"] = {
 			["profiles"] = {
 				["Исендур - Азурегос"] = {
-					["version"] = 3,
 					["position"] = {
-						["y"] = -185.736465454102,
-						["x"] = 91.1361694335938,
-						["point"] = "LEFT",
+						["y"] = -15.0000305175781,
+						["x"] = -82.4999847412109,
+						["point"] = "CENTER",
 					},
+					["version"] = 3,
 				},
 			},
 		},
